@@ -77,6 +77,10 @@ footer {
     .persoImage {
     display: none;
     }
+
+    .articleContainer {
+    flex-wrap: wrap;
+    }
 }
 
 /* TABLETTE */
@@ -146,13 +150,19 @@ footer {
         position: relative;
     }
 
-
-
+        .persoImage {
+        display: none;
+    }
 }
 
 /* DESKTOP */
 
 @media (min-width:1024px) {
+
+    .articleContainer {
+        flex-wrap: wrap;
+    }
+
     h1, h2, span {
         color: #a8490e;
     }
