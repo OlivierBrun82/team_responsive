@@ -73,6 +73,10 @@ footer {
     p {
         display: none;
     }
+
+    .persoImage {
+    display: none;
+    }
 }
 
 /* TABLETTE */
@@ -130,17 +134,20 @@ footer {
         background-color: white;
         width: 200px;
     }
-.articleContainer > div > p {
-    padding: 0 10px
-}
+    .articleContainer > div > p {
+        padding: 0 10px
+    }
 
-    .absolute {
-    position: absolute;
-}
+        .absolute {
+        position: absolute;
+    }
 
-    .relative {
-    position: relative;
-}
+        .relative {
+        position: relative;
+    }
+
+
+
 }
 
 /* DESKTOP */
@@ -150,13 +157,12 @@ footer {
         color: #a8490e;
     }
 
-.persoImage {
-    max-width: 40px;
-    top: 25px;
-    left: 10px;
-}
- H2 {
-    padding-left: 50px;
- }
-}
+    .persoImage {
+        max-width: 30px;
+        top: 25px;
+        left: 15px;
+    }
+    H2 {
+        padding-left: 50px;
+    }
 }
